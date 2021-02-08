@@ -13,6 +13,7 @@ struct TracyMcgrady: View {
         
         Image("TracyMcgrady")
             .resizable()
+            .padding(0.0)
             .scaledToFit()
         
         Image("TracyMcgrady2")

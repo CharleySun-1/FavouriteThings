@@ -15,15 +15,64 @@ struct ContentView: View {
             List {
                 
                 NavigationLink(destination:TracyMcgrady()) {
-                    Text("Tracy Mcgrady")
+                    
+                    HStack {
+                        Text("⛹🏽‍♂️")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            
+                            Text("Tracy Mcgrady")
+                                .font(.headline)
+                            
+                            Text("Who is a very good basketball player?")
+                                .font(.subheadline)
+                            
+                        }
+                        
+                        
+                    }
+                  
                 }
                 
                 NavigationLink(destination:Twix()) {
-                       Text("Twix")
+                    
+                    HStack {
+                        Text("🍫")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            
+                            Text("Twix")
+                                .font(.headline)
+                            
+                            Text("What's a good snack?")
+                                .font(.subheadline)
+                            
+                        }
+                        
+                        
+                    }
                    }
                 
                 NavigationLink(destination:NewBalances()) {
-                       Text("New balances")
+                    
+                    HStack {
+                        Text("👟")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading) {
+                            
+                            Text("New Balances")
+                                .font(.headline)
+                            
+                            Text("What's a good running shoes brand?")
+                                .font(.subheadline)
+                            
+                        }
+                        
+                        
+                    }
                    }
             }
             .navigationTitle("My favourite things")
@@ -37,5 +86,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.light)
     }
 }
