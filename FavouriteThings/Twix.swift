@@ -15,7 +15,10 @@ struct Twix: View {
             .resizable()
             .scaledToFit()
             
-            Text("Twix is my favourite snack.")
+            Text("""
+                Twix is my favourite snack. I have never had twix before I came to Canada but this is the best chocolate bar I have ever had. Twix is a chocolate coated peanut butter and crunch bar, th texture and the flavour of it is just undescribable.
+                """)
+                .font(.footnote)
         
         }
         .navigationTitle("Twix")

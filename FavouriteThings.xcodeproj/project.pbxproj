@@ -14,6 +14,7 @@
 		8C43F75C25CDA8B300629F3C /* Twix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F75B25CDA8B300629F3C /* Twix.swift */; };
 		8C43F75F25CDA8E800629F3C /* TracyMcgrady.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F75E25CDA8E800629F3C /* TracyMcgrady.swift */; };
 		8C43F76225CDA90400629F3C /* NewBalances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F76125CDA90400629F3C /* NewBalances.swift */; };
+		8C43F76A25D1A73800629F3C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F76925D1A73800629F3C /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8C43F75B25CDA8B300629F3C /* Twix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twix.swift; sourceTree = "<group>"; };
 		8C43F75E25CDA8E800629F3C /* TracyMcgrady.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyMcgrady.swift; sourceTree = "<group>"; };
 		8C43F76125CDA90400629F3C /* NewBalances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBalances.swift; sourceTree = "<group>"; };
+		8C43F76925D1A73800629F3C /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8C43F75E25CDA8E800629F3C /* TracyMcgrady.swift */,
 				8C43F75B25CDA8B300629F3C /* Twix.swift */,
 				8C43F76125CDA90400629F3C /* NewBalances.swift */,
+				8C43F76925D1A73800629F3C /* ListItem.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C43F76A25D1A73800629F3C /* ListItem.swift in Sources */,
 				8C43F74E25CC409600629F3C /* ContentView.swift in Sources */,
 				8C43F74C25CC409600629F3C /* FavouriteThingsApp.swift in Sources */,
 				8C43F75C25CDA8B300629F3C /* Twix.swift in Sources */,
