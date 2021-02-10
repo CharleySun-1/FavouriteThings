@@ -11,9 +11,6 @@
 		8C43F74E25CC409600629F3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F74D25CC409600629F3C /* ContentView.swift */; };
 		8C43F75025CC409B00629F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C43F74F25CC409B00629F3C /* Assets.xcassets */; };
 		8C43F75325CC409B00629F3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C43F75225CC409B00629F3C /* Preview Assets.xcassets */; };
-		8C43F75C25CDA8B300629F3C /* Twix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F75B25CDA8B300629F3C /* Twix.swift */; };
-		8C43F75F25CDA8E800629F3C /* TracyMcgrady.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F75E25CDA8E800629F3C /* TracyMcgrady.swift */; };
-		8C43F76225CDA90400629F3C /* NewBalances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F76125CDA90400629F3C /* NewBalances.swift */; };
 		8C43F76A25D1A73800629F3C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F76925D1A73800629F3C /* ListItem.swift */; };
 		8CE4B48E25D3234700D525A3 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4B48D25D3234700D525A3 /* Thing.swift */; };
 		8CE4B49125D3235A00D525A3 /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4B49025D3235A00D525A3 /* ThingDetail.swift */; };
@@ -26,9 +23,6 @@
 		8C43F74F25CC409B00629F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C43F75225CC409B00629F3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C43F75425CC409B00629F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C43F75B25CDA8B300629F3C /* Twix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twix.swift; sourceTree = "<group>"; };
-		8C43F75E25CDA8E800629F3C /* TracyMcgrady.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracyMcgrady.swift; sourceTree = "<group>"; };
-		8C43F76125CDA90400629F3C /* NewBalances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBalances.swift; sourceTree = "<group>"; };
 		8C43F76925D1A73800629F3C /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		8CE4B48D25D3234700D525A3 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 		8CE4B49025D3235A00D525A3 /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
@@ -69,9 +63,6 @@
 				8C43F74F25CC409B00629F3C /* Assets.xcassets */,
 				8C43F75425CC409B00629F3C /* Info.plist */,
 				8C43F75125CC409B00629F3C /* Preview Content */,
-				8C43F75E25CDA8E800629F3C /* TracyMcgrady.swift */,
-				8C43F75B25CDA8B300629F3C /* Twix.swift */,
-				8C43F76125CDA90400629F3C /* NewBalances.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -176,9 +167,6 @@
 				8CE4B49125D3235A00D525A3 /* ThingDetail.swift in Sources */,
 				8C43F74E25CC409600629F3C /* ContentView.swift in Sources */,
 				8C43F74C25CC409600629F3C /* FavouriteThingsApp.swift in Sources */,
-				8C43F75C25CDA8B300629F3C /* Twix.swift in Sources */,
-				8C43F76225CDA90400629F3C /* NewBalances.swift in Sources */,
-				8C43F75F25CDA8E800629F3C /* TracyMcgrady.swift in Sources */,
 				8CE4B48E25D3234700D525A3 /* Thing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

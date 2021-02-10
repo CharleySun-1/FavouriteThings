@@ -54,4 +54,12 @@ Thing(hint: "🏀",
     Basketball is my favourite sport to play out of all, I didn't start to play basketball until grade 7. In that year there was a new classmate in my class and he became the person that told me to try basketball and keep practicing it. It has been three years since I started playing.
     """),
 
+    Thing(hint: "🎮",
+        title: "Video games",
+        summary: "Something that distracts me from studying.",
+        heroImage: "VideoGames",
+        details: """
+        Gaming online had always been my to-go entertainment at home or every where. This could really be a big distraction to my life if I don't control myself, currently I'm working on controlling.
+        """),
+
 ]
