@@ -78,7 +78,8 @@
 		8CE4B49325D3236300D525A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8CE4B48D25D3234700D525A3 /* Thing.swift */,
+				8C43F74D25CC409600629F3C /* ContentView.swift */,
+				8C43F74B25CC409600629F3C /* FavouriteThingsApp.swift */,
 				8CE4B49025D3235A00D525A3 /* ThingDetail.swift */,
 				8C43F76925D1A73800629F3C /* ListItem.swift */,
 			);
@@ -88,8 +89,7 @@
 		8CE4B49425D3236900D525A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8C43F74D25CC409600629F3C /* ContentView.swift */,
-				8C43F74B25CC409600629F3C /* FavouriteThingsApp.swift */,
+				8CE4B48D25D3234700D525A3 /* Thing.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

@@ -9,30 +9,26 @@ import SwiftUI
 
 struct ThingDetail: View {
    
-    var heroImage: String
-    var details: String
-    var title: String
+    var someThing: Thing
 
     
     var body: some View {
         ScrollView {
         
-        Image(heroImage)
+            Image(someThing.heroImage)
             .resizable()
             .scaledToFit()
             
-            Text(details)
+            Text(someThing.details)
                 .font(.footnote)
         
         }
-        .navigationTitle(title)
+        .navigationTitle(someThing.title)
     }
 }
 
 struct ThingDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ThingDetail(heroImage: favouriteThings[0].heroImage,
-                    details: favouriteThings[0].details,
-                    title: favouriteThings[0].title)
+        ThingDetail(someThing: favouriteThings[0])
     }
 }
