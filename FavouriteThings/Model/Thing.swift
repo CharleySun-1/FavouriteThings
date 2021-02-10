@@ -27,11 +27,11 @@ Thing(hint: "⛹🏽‍♂️",
     summary: "A very good magic player back in 2000s.",
     segments: [
     
-        Segment(image: "TracyMcgrady3",
+        Segment(image: "Mcgrady",
                 text: """
         Tracy Mcgrady was one of the best NBA players in early 2000s, he was drafted into the NBA right after high school which is rare back then and now
 
-        (Fun fact: he was drafted the Toronto Raptors in 1997).
+        (Fun fact: he was drafted the Toronto Raptors in 1997, number 15 beside him is Vince Carter, another great Raptors player.)
         """),
         
         Segment(image: "TracyMcgrady",
@@ -112,6 +112,8 @@ Thing(hint: "🎮",
         Segment(image: "VideoGames3",
                 text: """
             Rainbow six siege is the other game that I like to play the most, it is a first person shooting game, it's online as well.
+           
+
             Personally , I think there are a lot of benefits of gaming, especially if I'm doing it moderately. While gaming, my brain will work faster because I'm focused, so at least during that period of time I'll guaranteed to use my brain. This is also why my brain gets tired after several hours of gaming.
      """)
         
