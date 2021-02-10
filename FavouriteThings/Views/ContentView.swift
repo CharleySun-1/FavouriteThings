@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     // Create a cop of the data that we created in Thing.swift
     // A "store"
-    var store = favouriteThings
+  
     
     var body: some View {
         

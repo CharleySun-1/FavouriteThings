@@ -107,7 +107,13 @@ Thing(hint: "🎮",
                 text: "Gaming online had always been my to-go entertainment at home or every where."),
         
         Segment(image: "VideoGames2",
-                text: "League of Legends is one of my favourite."),
+                text: "League of Legends is one of my favourite video games, it's a 5v5 MOBA."),
+        
+        Segment(image: "VideoGames3",
+                text: """
+            Rainbow six siege is the other game that I like to play the most, it is a first person shooting game, it's online as well.
+            Personally , I think there are a lot of benefits of gaming, especially if I'm doing it moderately. While gaming, my brain will work faster because I'm focused, so at least during that period of time I'll guaranteed to use my brain. This is also why my brain gets tired after several hours of gaming.
+     """)
         
     ])
-
+]
