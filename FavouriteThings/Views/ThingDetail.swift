@@ -15,16 +15,19 @@ struct ThingDetail: View {
     var body: some View {
         ScrollView {
         
-            Image(someThing.heroImage)
-            .resizable()
-            .scaledToFit()
+            ForEach(someThing.segments) { segment in
             
-            Text(someThing.details)
+            Image(segment.heroImage)
+                .resizable()
+                .scaledToFit()
+            
+            Text(segment.details)
                 .font(.footnote)
         
         }
-        .navigationTitle(someThing.title)
+       
     }
+        .navigationTitle(someThing.title)
 }
 
 struct ThingDetail_Previews: PreviewProvider {
