@@ -28,17 +28,22 @@ Thing(hint: "⛹🏽‍♂️",
     segments: [
     
         Segment(image: "Mcgrady",
+                
                 text: """
         Tracy Mcgrady was one of the best NBA players in early 2000s, he was drafted into the NBA right after high school which is rare back then and now
 
         (Fun fact: he was drafted the Toronto Raptors in 1997, number 15 beside him is Vince Carter, another great Raptors player.)
-        """),
+        """,
+                video: "",
+                extensionName: ""),
         
         Segment(image: "TracyMcgrady",
                 text: " He is also one of my favourite players due to his playing style and his moves. He retired a while ago due to injuries but it was truly an enjoyment to watch those old tapes of him playing."),
         
         Segment(image: "TracyMcgrady2",
-                text: "Mcgrady is very popular in China because during his Rockets career, he teamed up with Yao Ming which was a hall of fame Chinese player. Its pity that they did not win a championship together, but it gave a lot of fans good memories."),
+                text: "Mcgrady is very popular in China because during his Rockets career, he teamed up with Yao Ming which was a hall of fame Chinese player. Its pity that they did not win a championship together, but it gave a lot of fans good memories.",
+                video: "Tracy McGrady 13 Points in 33 Seconds",
+                extention: "mp4"),
 
     ]),
 
